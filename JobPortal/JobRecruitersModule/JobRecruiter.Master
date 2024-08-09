@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="JobRecruiter.master.cs" Inherits="JobPortal.JobRecruitersModule.JobRecruiter" %>
+<%@ Register Src="~/Header.ascx" TagName="myhead" TagPrefix="naim" %>
+<%@ Register Src="~/Footer.ascx" TagName="myfoot" TagPrefix="naim" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <script src="jquery.js"></script>
+    <link href="menu.css" rel="stylesheet" />
+    <script src="menu.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <naim:myhead ID="h1" runat="server"></naim:myhead>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div id="menu">
+                            <ul class="menu">
+                                <li class="last"><a href="JobRecruiterHome.aspx"><span>Home</span></a></li>
+                                <li class="last"><a href="JobRecruiter_JobPost.aspx"><span>Job Post</span></a></li>
+                                <li class="last"><a href="JobRecruiter_JobPostList.aspx"><span>Job Post List</span></a></li>
+                                <li class="last"><a href="JobRecruiter_ChangePassword.aspx"><span>Change Password</span></a></li>
+                                <li class="last"><a href="JobRecruiter_Logout.aspx"><span>Logout</span></a></li>
+                              
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="height: 300px; vertical-align: top">
+                        <center>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </center>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <naim:myfoot ID="f1" runat="server"></naim:myfoot>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
