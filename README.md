@@ -19,9 +19,9 @@ A fully functional C# ASP.NET Job seraching app consisting mainly 3 sections (Ad
 - C# , ASP.NET , MySql ,Stored Procedure
 - Visual Studio 2022
 ## Screenshots
-
-![p1](https://github.com/user-attachments/assets/3bd4efd8-9810-4060-b9e5-33ca9e76e826)
-![p2](https://github.com/user-attachments/assets/fe82200d-c8bd-4ccc-a8cd-64f703a860dc)
-![p3](https://github.com/user-attachments/assets/57c84d28-1ab1-42af-a9ee-514cbd75fd24)
-![p4](https://github.com/user-attachments/assets/d66d3250-5c60-416f-b3f4-b623b6c35944)
+![n1](https://github.com/user-attachments/assets/a19710d3-0db5-4f2a-8098-3cc867368186)
+![n2](https://github.com/user-attachments/assets/8aa31f79-069f-4ced-8b28-49c6df5191ba)
+![n3](https://github.com/user-attachments/assets/ee805b06-03cc-4223-b220-b654f31e38cc)
+![n4](https://github.com/user-attachments/assets/21bd044e-1639-4e93-8e76-95da517224ed)
+![n5](https://github.com/user-attachments/assets/50731779-fb50-4446-a622-cb36524999ab)
 
